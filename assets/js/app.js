@@ -35,7 +35,8 @@ function renderRows(rows) {
   const searchResults = document.getElementById("search-results");
   searchResults.innerHTML = "";
   rows.forEach((row) => {
-    let searchResult = document.createElement("div");
+    let searchResult = document.createElement("a");
+    searchResult.href = `https://${row.INSTURL}`;
     searchResult.className = "search-result";
     searchResult.id = row.UNITID;
 
@@ -53,7 +54,7 @@ function renderRows(rows) {
     card.appendChild(name);
 
     let link = document.createElement("a");
-    link.href = row.INSTURL;
+    link.href = `https://${row.INSTURL}`;
     link.innerText = row.INSTURL;
     card.appendChild(link);
     searchResult.appendChild(card);
