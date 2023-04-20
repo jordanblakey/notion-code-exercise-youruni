@@ -1,5 +1,3 @@
-// TODO: Abstract these helper functions
-
 function getRows(url) {
   // Get CSV bytes from a static URL and parse the CSV into
   // an array of Objects.
