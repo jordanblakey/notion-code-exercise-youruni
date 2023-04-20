@@ -1,4 +1,4 @@
-# Notion Marketing Engineering Take Home Excercise
+# Notion Marketing Engineering Take Home Exercise
 
 Hi, I'm Jordan Blakey. This repository is my submission for the take home exercise.
 
