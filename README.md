@@ -4,7 +4,7 @@ Hi, I'm Jordan Blakey. This repository is my submission for the take home exerci
 
 ## Installation
 
-```h
+```sh
 git clone git@github.com:jordanblakey/notion-code-exercise-youruni.git
 cd notion-code-exercise-youruni
 open ./index.html
